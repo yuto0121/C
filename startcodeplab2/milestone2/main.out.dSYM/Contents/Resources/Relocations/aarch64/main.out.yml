@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036B4, symSize: 0x114 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000036B4, symSize: 0x114 }
+  - { offsetInCU: 0x26, offset: 0x30C, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x1000037C8, symSize: 0x9C }
+  - { offsetInCU: 0x42, offset: 0x328, size: 0x8, addend: 0x0, symName: _open_db, symObjAddr: 0x0, symBinAddr: 0x1000037C8, symSize: 0x9C }
+  - { offsetInCU: 0x86, offset: 0x36C, size: 0x8, addend: 0x0, symName: _insert_sensor, symObjAddr: 0x9C, symBinAddr: 0x100003864, symSize: 0xB0 }
+  - { offsetInCU: 0xD8, offset: 0x3BE, size: 0x8, addend: 0x0, symName: _close_db, symObjAddr: 0x14C, symBinAddr: 0x100003914, symSize: 0x78 }
+  - { offsetInCU: 0x26, offset: 0x665, size: 0x8, addend: 0x0, symName: _create_log_process, symObjAddr: 0x0, symBinAddr: 0x10000398C, symSize: 0x298 }
+  - { offsetInCU: 0x4D, offset: 0x68C, size: 0x8, addend: 0x0, symName: _pipe_fd, symObjAddr: 0x13D0, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x6B4, size: 0x8, addend: 0x0, symName: _logger_pid, symObjAddr: 0x484, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xA0, offset: 0x6DF, size: 0x8, addend: 0x0, symName: _create_log_process, symObjAddr: 0x0, symBinAddr: 0x10000398C, symSize: 0x298 }
+  - { offsetInCU: 0x12F, offset: 0x76E, size: 0x8, addend: 0x0, symName: _write_to_log_process, symObjAddr: 0x298, symBinAddr: 0x100003C24, symSize: 0x104 }
+  - { offsetInCU: 0x173, offset: 0x7B2, size: 0x8, addend: 0x0, symName: _end_log_process, symObjAddr: 0x39C, symBinAddr: 0x100003D28, symSize: 0x64 }
+...
