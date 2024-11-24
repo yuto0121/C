@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'build/dplistprogram'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _dpl_create, symObjAddr: 0x0, symBinAddr: 0x100003324, symSize: 0x70 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _dpl_create, symObjAddr: 0x0, symBinAddr: 0x100003324, symSize: 0x70 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _dpl_free, symObjAddr: 0x70, symBinAddr: 0x100003394, symSize: 0xB8 }
+  - { offsetInCU: 0xA9, offset: 0xA9, size: 0x8, addend: 0x0, symName: _dpl_insert_at_index, symObjAddr: 0x128, symBinAddr: 0x10000344C, symSize: 0x218 }
+  - { offsetInCU: 0x109, offset: 0x109, size: 0x8, addend: 0x0, symName: _dpl_get_reference_at_index, symObjAddr: 0x340, symBinAddr: 0x100003664, symSize: 0xF0 }
+  - { offsetInCU: 0x15B, offset: 0x15B, size: 0x8, addend: 0x0, symName: _dpl_size, symObjAddr: 0x430, symBinAddr: 0x100003754, symSize: 0x84 }
+  - { offsetInCU: 0x19F, offset: 0x19F, size: 0x8, addend: 0x0, symName: _dpl_remove_at_index, symObjAddr: 0x4B4, symBinAddr: 0x1000037D8, symSize: 0x120 }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: _dpl_get_element_at_index, symObjAddr: 0x5D4, symBinAddr: 0x1000038F8, symSize: 0x60 }
+  - { offsetInCU: 0x227, offset: 0x227, size: 0x8, addend: 0x0, symName: _dpl_get_index_of_element, symObjAddr: 0x634, symBinAddr: 0x100003958, symSize: 0xC8 }
+  - { offsetInCU: 0x26, offset: 0x31D, size: 0x8, addend: 0x0, symName: _ck_assert_msg, symObjAddr: 0x0, symBinAddr: 0x100003A20, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x338, size: 0x8, addend: 0x0, symName: _ck_assert_msg, symObjAddr: 0x0, symBinAddr: 0x100003A20, symSize: 0x50 }
+  - { offsetInCU: 0x73, offset: 0x36A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x50, symBinAddr: 0x100003A70, symSize: 0x2D0 }
+...
